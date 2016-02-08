@@ -24,7 +24,8 @@ php:
 nginx:
     build: nginx
     ports:
-        - 80:80
+        - 3030:80
+        - 3033:443
     links:
         - php
     volumes_from:

@@ -26,7 +26,7 @@ $ symfony new symfony/
 
 Modify server_name in nginx/symfony.conf to match either the host container or whatever domain will be pointed at the Nginx container. (Default is localhost.)
 
-If desired, change the mapped ports in docker-composer.yml. (Default is 3030 (HTTP) and 3033 (HTTPS).) The default config redirects HTTP requests on the mapped port to 3033. For the redirect to work properly, you also need to change the port in line 6 of nginx/symfony.conf to match your new HTTPS port.
+If desired, change the mapped ports under nginx.ports in docker-composer.yml. (Default is 3030 (HTTP) and 3033 (HTTPS).) The default config redirects HTTP requests on the mapped port to 3033. For the redirect to work properly, you also need to change the port in line 6 of nginx/symfony.conf to match your new HTTPS port.
 
 # Setup HTTPS/TLS
 

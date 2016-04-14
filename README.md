@@ -3,6 +3,7 @@ docker-symfony
 
 [![Build Status](https://secure.travis-ci.org/eko/docker-symfony.png?branch=master)](http://travis-ci.org/eko/docker-symfony)
 
+Source: [github.com/eko/docker-symfony](https://github.com/eko/docker-symfony)
 
 Just a litle Docker POC in order to have a complete stack for running Symfony into Docker containers using docker-compose tool.
 
@@ -12,6 +13,8 @@ Prerequisites:
 * Local PHP (CLI, PHP 5.4+)
 * Composer
 * Symfony Installer
+* Docker
+* Docker-compose
 
 First, clone this repository:
 

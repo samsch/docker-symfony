@@ -10,11 +10,11 @@ Just a litle Docker POC in order to have a complete stack for running Symfony in
 # Installation
 
 Prerequisites:
-* Local PHP (CLI, PHP 5.4+)
+* Local PHP (CLI, PHP 5.4+; required for Symfony Installer)
 * Composer
 * Symfony Installer
-* Docker
-* Docker-compose
+* Docker (1.10.0+)
+* Docker-compose (v1.6.0+)
 
 First, clone this repository:
 
